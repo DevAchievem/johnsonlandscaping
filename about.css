@@ -1,0 +1,92 @@
+h1 {
+    text-align: center;
+    font-size: 2em;
+    color: #826251;
+    font-weight: bold;
+}
+
+#about {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60em;
+    max-width: 100%;
+}
+#mathiusimage {
+    padding: 15px 10px 10px 10px;
+    float: left;
+
+}
+#mathius {
+    margin: auto;
+    width: 24vw;
+    max-width: 100%;
+    border-radius: 15px;
+    
+}
+
+#aboutmathiustext, #aboutclaratext {
+    padding-left: 10px;
+    overflow: hidden;
+}
+
+p {
+    font-size: 1em;
+}
+
+#claraimage {
+    padding: 15px 10px 10px 10px;
+    float: right;
+}
+
+#clara {
+    margin: auto;
+    width: 24vw;
+    max-width: 100%;
+    border-radius: 15px;
+}
+
+#laluna {
+    color: #0000FF;
+}
+
+footer {
+    clear: both;
+}
+
+@media (min-width: 650px) {
+
+    p {
+        font-size: 1.1em;
+    }
+
+@media (min-width: 750px) {
+    p {
+        font-size: 1.2em;
+    }
+@media (min-width: 800px) {
+    #mathiusimage {
+        padding: 10px;
+    }
+    p {
+        font-size: 1.3em;
+    }
+}
+@media (min-width: 880px) {
+    p {
+        font-size: 1.35em;
+    }
+}
+
+
+@media (min-width: 950px) {
+    p {
+        font-size: 1.45em;
+    }
+}
+
+@media (min-width: 1080px) {
+    p {
+        font-size: 1.6em;
+    }
+
+    }

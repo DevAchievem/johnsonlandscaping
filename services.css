@@ -1,0 +1,57 @@
+.Services {
+    box-sizing: border-box;
+    width: 90%;
+    margin: 5px;
+    vertical-align: top;
+    text-align: center;
+    display: inline-block;
+    color: #84714F;
+    padding-left: 15px;
+}
+
+h4 {
+    font-size: 1.2em;
+
+}
+
+#icon {
+    width: 99%;
+    height: 99%;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+}
+
+@media (min-width: 610px) {
+
+    .Services {
+        width: 45%;        
+    }
+}
+@media (min-width: 800px) {
+
+    .Services {
+       display: inline-block;
+       width: 48%;
+       text-align: center;
+    }
+}
+
+@media (min-width: 900px) {
+    .Services {
+        width: 23%;
+        text-align: center;
+        display: inline-block;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .Services {
+        width: 23%;
+        text-align: center;
+        display: inline-block;
+    }
+    }
